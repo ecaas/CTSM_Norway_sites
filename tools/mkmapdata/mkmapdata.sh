@@ -56,7 +56,8 @@ case $hostname in
   ;;
 
 esac
-
+#ELIN
+DIR_PATH=/cluster/work/users/ecaas/inputdata/lnd/clm2/mappingdata/maps
 #----------------------------------------------------------------------
 # Usage subroutine
 usage() {
@@ -213,7 +214,8 @@ echo "Script to create mapping files required by mksurfdata_map"
 QUERY="$dir/../../bld/queryDefaultNamelist.pl -silent -namelist clmexp "
 QUERY="$QUERY -justvalue -options sim_year=2000 -csmdata $CSMDATA"
 echo "query command is $QUERY"
-
+#ELIN
+PLOTNAME=${res:4:${#res}}
 echo ""
 DST_EXTRA_ARGS=""
 if [ "$gridfile" != "default" ]; then
@@ -285,13 +287,13 @@ fi
 if [ "$phys" = "clm4_5" ]; then
     grids=(                    \
            "0.5x0.5_nomask"     \
-           "0.25x0.25_nomask"   \
-           "0.125x0.125_nomask"   \
-           "3x3min_nomask" \
-           "5x5min_nomask"     \
-           "10x10min_nomask"   \
-           "0.9x1.25_nomask" \
-           "1km-merge-10min_HYDRO1K-merge-nomask" \
+#           "0.25x0.25_nomask"   \
+#           "0.125x0.125_nomask"   \
+#           "3x3min_nomask" \
+#           "5x5min_nomask"     \
+#           "10x10min_nomask"   \
+#           "0.9x1.25_nomask" \
+#           "1km-merge-10min_HYDRO1K-merge-nomask" \
           )
 
 else
@@ -328,8 +330,8 @@ do
       echo "ingrid = ${INGRID[nfile]}"
       echo "ingrid = ${INGRID[nfile]}" >> $outfilelist
    fi
-
-   OUTFILE[nfile]=map_${grid}_${lmask}_to_${res}_nomask_aave_da_$CDATE.nc
+#ELIN
+   OUTFILE[nfile]=${DIR_PATH}/${PLOTNAME}/map_${grid}_${lmask}_to_${res}_nomask_aave_da_$CDATE.nc
 
    # Determine extra information about the source grid file
    SRC_EXTRA_ARGS[nfile]=""
