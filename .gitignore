@@ -92,6 +92,9 @@ unit_test_build
 # mksurfdata output files
 /tools/mksurfdata_map/surfdata_*.nc
 /tools/mksurfdata_map/landuse.timeseries_*.nc
+/tools/mksurfdata_map/clm.input_data_list
+/tools/mksurfdata_map/clm.input_data_list.previous
+
 
 # mkmapdata output files
 /tools/mkmapdata/PET*.RegridWeightGen.Log
