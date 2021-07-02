@@ -31,7 +31,7 @@ export ESMF_NETCDF_INCLUDE=/cluster/software/ESMF/8.0.0-intel-2019b/include
 ulimit -s unlimited
  
 export ESMFBIN_PATH=/cluster/software/ESMF/8.0.0-intel-2019b/bin
-export CSMDATA=/cluster/shared/noresm/inputdata
+export CSMDATA=/cluster/work/users/$USER/inputdata 
 export MPIEXEC=mpirun
 
 RES=$1

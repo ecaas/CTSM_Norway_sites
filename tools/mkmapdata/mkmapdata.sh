@@ -287,13 +287,12 @@ fi
 if [ "$phys" = "clm4_5" ]; then
     grids=(                    \
            "0.5x0.5_nomask"     \
-#           "0.25x0.25_nomask"   \
-#           "0.125x0.125_nomask"   \
-#           "3x3min_nomask" \
-#           "5x5min_nomask"     \
-#           "10x10min_nomask"   \
-#           "0.9x1.25_nomask" \
-#           "1km-merge-10min_HYDRO1K-merge-nomask" \
+           "0.25x0.25_nomask"   \
+           "0.125x0.125_nomask"   \
+           "3x3min_nomask" \
+           "5x5min_nomask"     \
+           "10x10min_nomask"   \
+           "1km-merge-10min_HYDRO1K-merge-nomask" \
           )
 
 else
