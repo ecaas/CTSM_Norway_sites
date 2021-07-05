@@ -1557,10 +1557,10 @@ lnd/clm2/surfdata_map/release-clm5.0.30/surfdata_ne0np4.CONUS.ne30x8_hist_78pfts
 <lai_mapalgo  hgrid="1x1_camdenNJ"        >nn</lai_mapalgo>
 <lai_mapalgo  hgrid="1x1_asphaltjungleNJ" >nn</lai_mapalgo>
 <lai_mapalgo  hgrid="5x5_amazon"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31801"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31883"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31825"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31799"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31801"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31883"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31825"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31799"          >nn</lai_mapalgo>
 <lai_mapalgo  hgrid="1x1_brazil"          >nn</lai_mapalgo>
 <lai_mapalgo  hgrid="1x1_mexicocityMEX"   >nn</lai_mapalgo>
 <lai_mapalgo  hgrid="1x1_vancouverCAN"    >nn</lai_mapalgo>
@@ -1568,10 +1568,11 @@ lnd/clm2/surfdata_map/release-clm5.0.30/surfdata_ne0np4.CONUS.ne30x8_hist_78pfts
 <lai_mapalgo  hgrid="1x1_camdenNJ"        >nn</lai_mapalgo>
 <lai_mapalgo  hgrid="1x1_asphaltjungleNJ" >nn</lai_mapalgo>
 <lai_mapalgo  hgrid="5x5_amazon"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31801"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31883"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31825"          >nn</lai_mapalgo>
-<lai_mapalgo  hgrid="NR31799"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31801"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31883"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31825"          >nn</lai_mapalgo>
+<lai_mapalgo  hgrid="1x1_NR31799"          >nn</lai_mapalgo>
+
 
 <!-- lightning streams namelist defaults -->
 
@@ -1697,14 +1698,15 @@ lnd/clm2/surfdata_map/release-clm5.0.30/surfdata_ne0np4.CONUS.ne30x8_hist_78pfts
 <popdensmapalgo use_cn=".true."   hgrid="1x1_camdenNJ"        >nn</popdensmapalgo>
 <popdensmapalgo use_cn=".true."   hgrid="1x1_asphaltjungleNJ" >nn</popdensmapalgo>
 <popdensmapalgo use_cn=".true."   hgrid="5x5_amazon"          >nn</popdensmapalgo>
-<urbantvmapalgo use_cn=".true."   hgrid="NR31801"          >nn</urbantvmapalgo>
-<popdensmapalgo use_cn=".true."   hgrid="NR31801"          >nn</popdensmapalgo>
-<urbantvmapalgo use_cn=".true."   hgrid="NR31883"          >nn</urbantvmapalgo>
-<popdensmapalgo use_cn=".true."   hgrid="NR31883"          >nn</popdensmapalgo>
-<urbantvmapalgo use_cn=".true."   hgrid="NR31825"          >nn</urbantvmapalgo>
-<popdensmapalgo use_cn=".true."   hgrid="NR31825"          >nn</popdensmapalgo>
-<urbantvmapalgo use_cn=".true."   hgrid="NR31799"          >nn</urbantvmapalgo>
-<popdensmapalgo use_cn=".true."   hgrid="NR31799"          >nn</popdensmapalgo>
+<urbantvmapalgo use_cn=".true."   hgrid="1x1_NR31801"          >nn</urbantvmapalgo>
+<popdensmapalgo use_cn=".true."   hgrid="1x1_NR31801"          >nn</popdensmapalgo>
+<urbantvmapalgo use_cn=".true."   hgrid="1x1_NR31883"          >nn</urbantvmapalgo>
+<popdensmapalgo use_cn=".true."   hgrid="1x1_NR31883"          >nn</popdensmapalgo>
+<urbantvmapalgo use_cn=".true."   hgrid="1x1_NR31825"          >nn</urbantvmapalgo>
+<popdensmapalgo use_cn=".true."   hgrid="1x1_NR31825"          >nn</popdensmapalgo>
+<urbantvmapalgo use_cn=".true."   hgrid="1x1_NR31799"          >nn</urbantvmapalgo>
+<popdensmapalgo use_cn=".true."   hgrid="1x1_NR31799"          >nn</popdensmapalgo>
+
 
 <popdensmapalgo use_fates=".true."                    >bilinear</popdensmapalgo>
 
